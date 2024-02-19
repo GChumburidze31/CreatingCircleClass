@@ -3,8 +3,8 @@ import java.awt.*;
 // define the class
 class Circle {
     // attributes or instance variables, default values of 0, and 0.0
-    Point center;
-    double radius;
+    private Point center;
+    private double radius;
     double getPerimeter(){
         return 2 * Math.PI * radius;
     }
